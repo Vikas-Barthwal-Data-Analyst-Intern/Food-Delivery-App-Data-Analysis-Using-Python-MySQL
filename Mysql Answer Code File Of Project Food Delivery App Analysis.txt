@@ -1,16 +1,12 @@
 Task 1: Write An SQL Query To Solve The Given Problem Statement:
 For a high-level overview of the hotels, provide us the top 5 most voted hotels in the delivery category.
 
-
 Answer: select name,votes,rating from zomato where type="Delivery" order by votes desc limit 5;
-
 
 Task 2: Write An SQL Query To Solve The Given Problem Statement:
 The rating of a hotel is a key identifier in determining a restaurant’s performance. Hence for a particular location called Banashankari find out the top 5 highly rated hotels in the delivery category.
 
-
 Answer: select name,rating,location,type  from zomato where type="Delivery" and location="Banashankari" order by rating desc limit 5;
-
 
 Task 3: Write An SQL Query To Solve The Given Problem Statement:
 Compare the ratings of the cheapest and most expensive hotels in Indiranagar.
@@ -22,7 +18,6 @@ Online ordering of food has exponentially increased over time. Compare the total
 
 Answer: select sum(votes),online_order from zomato group by online_order;
 
-
 Task 5: Write An SQL Query To Solve The Given Problem Statement:
 Number of votes defines how much the customers are involved with the service provided by the restaurants For each Restaurant type, find out the number of restaurants, total votes, and average rating. Display the data with the highest votes on the top( if the first row of output is NA display the remaining rows).
 
@@ -30,7 +25,6 @@ Answer: select type,count(type) as Number_Of_Restaurants,sum(votes) as Total_Vot
 
 Task 6: Write An SQL Query To Solve The Given Problem Statement:
 What is the most liked dish of the most-voted restaurant on Zomato(as the restaurant has a tie-up with Zomato, the restaurant compulsorily provides online ordering and delivery facilities.
-
 
 Answer: select name,dish_liked,rating,votes from zomato  order by votes desc limit 1;
 
