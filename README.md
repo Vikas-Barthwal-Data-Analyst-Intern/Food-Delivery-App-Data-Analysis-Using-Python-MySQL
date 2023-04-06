@@ -6,7 +6,7 @@ Food Delivery App Data Analysis
 Project description from HiCounselor's Linkedin URL: https://www.linkedin.com/posts/hicounselor_ugcPost-7043499029141274624-YIZl?utm_source=share&utm_medium=member_desktop
 
 
-Project Description
+Project Description:
 This project will help you understand how a real-world database is analyzed using SQL, how to get maximum available insights from the dataset, pre-process the data using python for better upcoming performance, and how a structured query language helps us retrieve useful information from the database.
 
 
