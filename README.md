@@ -1,4 +1,4 @@
-# Food-Delivery-App-Data-Analysis-Using-Python-MySQL
+# Food_Delivery_App_Data_Analysis Using - Python and MySQL
 
 Food Delivery App Data Analysis
 
@@ -95,7 +95,3 @@ What is the most liked dish of the most-voted restaurant on Zomato(as the restau
 
 Task 7: Write An SQL Query To Solve The Given Problem Statement:
 To increase the maximum profit, Zomato is in need to expand its business. For doing so Zomato wants the list of the top 15 restaurants which have min 150 votes, have a rating greater than 3, and is currently not providing online ordering. Display the restaurants with the highest votes on the top.
-
-
-
-
