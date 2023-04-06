@@ -19,11 +19,9 @@ Task 1: Pre-Processing The Data And Removing Unwanted Columns
 In this module, you will query the dataset using structured query language to gain insights from the database. The problem statements to be solved will be provided to you and you need to provide the solution for the same using your logic. Different concepts of SQL will be used in this process such as aggregating the data, grouping the data, ordering the data, etc. Module 1 consists of subtasks which are as follows
 
 Pre-processing the data:
-
 Data Pre-processing is one of the important steps in data analytics because data that is not processed can lead to different unwanted results when the data will be used for further applications. This task includes sub-tasks such as handling null values, deletion or transformation of irrelevant values, datatype transformation, removing duplicates, etc. The tasks to be performed for cleaning the data set are given below:
 
 Removing Unwanted Columns:
-
 Removing unwanted columns refers to the process of eliminating irrelevant or unnecessary columns from a dataset. This can improve data analysis and visualization by reducing clutter and focusing on the most important information. It involves identifying and selecting the columns to be removed and executing the removal process using tools like programming languages, database management systems, or spreadsheet software.
 
 
@@ -32,8 +30,7 @@ Task 2: Renaming And Selecting Columns In A Dataset
 Renaming columns involves changing the names of one or more columns in a dataset to make them more meaningful or consistent. Selecting columns refers to the process of choosing only specific columns to be included in a dataset while excluding all others. These techniques are useful for improving the organization and readability of data and can help streamline data analysis. By renaming and selecting only the relevant columns, data scientists can create a more focused and manageable dataset that is better suited for their specific analysis needs.
 
 Only these columns are allowed in the dataset:
-
-1.    Id 2.    Name 3.    online_order 4.    book_table 5.    rating 6.    votes 7.    location 8.    rest_type 9.    dish_liked 10.    cuisines 11.    approx_cost 12.    type
+1. Id 2. Name 3. online_order 4. book_table 5. rating 6. votes 7. location 8. rest_type 9. dish_liked 10. cuisines 11. approx_cost 12. type
 
 
 Task 3: Dealing With Null Values In A Dataset
@@ -63,15 +60,10 @@ Task 8: Data Cleaning And Analysis With Excel And MySQL
 The process of performing data cleaning and analysis using both Excel and MySQL. The first step involves the deduplication of identical rows in an exported dataset using Excel. This helps ensure data accuracy and consistency. The second step involves uploading the cleaned dataset to a provided database and performing further analysis using MySQL. This allows for powerful data querying and visualization, enabling data-driven decision-making.
 
 Step 1: Download the exported data set "zomatocleaned.csv"
-
 Step 2: Eliminate any identical rows in the Excel dataset by performing the deduplication task.
-
 Step 3: Upload the final dataset to the database provided to conduct an analysis in MySQL.
-
 Step 4: Retrieve the database host, username, password, and database information from the "Database Info" tab and input it into db.py.
-
 Step 5: To complete the current task, click on "Run Test" and confirm that your table has been successfully created.
-
 
 Module 2: Data Analysis Using SQL
 
